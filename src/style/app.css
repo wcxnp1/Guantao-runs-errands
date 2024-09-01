@@ -1,0 +1,56 @@
+html,
+body,
+#app,
+head {
+  width: 100vw;
+  height: 100%;
+  font-size: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+
+}
+
+/* 
+<div class="header-box-left">
+<p class="headername">观涛跑腿</p>
+<span class="headtext">同城急事 找观涛跑腿</span>
+</div>
+<!--  -->
+<ul class="header-box-center">
+<li>首页</li>
+<li>服务介绍</li>
+<li>开发平台</li>
+<li>UU家政</li>
+<li>UU运货</li>
+<li @mouseover="handleMouseOver" @mouseout="handleMouseOut" class="setli">加入我们
+</li>
+<div class="Joinus" v-show="isShow">
+  <li>加盟跑腿</li>
+  <li>成为跑男</li>
+  <li>人才招聘</li>
+  <li>加盟货运</li>
+</div>
+<li class="UIset" @mouseover="handleMouseOverUIset" @mouseout="handleMouseOutUIset">关于UU</li>
+<div class="UIsetchilie" v-show="UIset">
+  <li>加盟跑腿</li>
+  <li>成为跑男</li>
+  <li>人才招聘</li>
+  <li>加盟货运</li>
+</div>
+</ul>
+<!--  -->
+<div class="header-box-right">
+<div class="swrpositioning">
+  <img src="../assets/dingwei.png" alt="">
+  <span>定位失败</span>
+</div>
+<div class="btn">
+  <button>企业版</button>
+  <button>商家版</button>
+</div>
+</div> */
